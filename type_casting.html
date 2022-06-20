@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            var str1, str2, res, txt;
+            txt = "Hello Mr. ";
+            str1 = "10";
+            str2 ="20";
+
+            document.write("<h3> Implicit type casting </h3>");
+            res = txt + str1;
+            document.write("The result of implicit type casting is = " + res + "<br>");
+
+            document.write("<h3> Explicit type casting </h3>");
+            document.write("str1= " + str1 + "<br>");
+            document.write("str2= " + str2 + "<br>");
+            res = str1 + str2;
+
+            document.write("str1 + str2 without type casting: " + str1 + str2 + "<br>" );
+
+            res = parseInt(str1) + parseInt(str2);
+
+            document.write("str1 + str2 with type casting: " + res );
+
+            
+            
+        </script>
+    </head>
+</html>

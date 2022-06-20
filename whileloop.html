@@ -1,0 +1,21 @@
+<!--lets learn about while loop-->
+<!--lets make this sentinel control while loop-->
+    <html>
+        <head>
+            <script>
+                var total, grade_counter, grade_value, average, grade;
+                total = 0;
+                grade_counter=0;
+                while(grade_value != -1)
+                {
+                    grade = window.prompt("Enter your grade, Enter -1 to Quit: ");
+                    grade_value = parseInt(grade);
+                    total = total +grade_value 
+                    grade_counter = grade_counter + 1
+                }
+                if(grade_counter !=0)
+                    average = total/10;
+                document.write("<h2> Class Average " + average + "</h2>");
+            </script>
+        </head>
+    </html>
