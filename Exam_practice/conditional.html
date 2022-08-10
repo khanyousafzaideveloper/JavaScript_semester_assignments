@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var first, second;
+        first = window.prompt("Enter first number: ");
+        second = window.prompt("Enter second number: ");
+        document.writeln("Comparison result");
+        document.writeln("<table border = '1', width = 100%>")
+            if(first == second)
+            document.writeln("<tr><td>" + first + "==" + second + "</tr></td");
+            if(first!=second)
+            document.writeln("<tr><td>" + first + "!=" + second + "</tr></td>"); 
+                if(first<second)
+            document.writeln("<tr><td>" + first + "<" + second + "</tr></td>"); 
+                if(first>second)
+            document.writeln("<tr><td>" + first + ">" + second + "</tr></td>"); 
+                if(first>=second)
+            document.writeln("<tr><td>" + first + ">=" + second + "</tr></td>");
+                if(first<=second)
+            document.writeln("<tr><td>" + first + "<=" + second + "</tr></td>");
+                document.writeln("</table>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
