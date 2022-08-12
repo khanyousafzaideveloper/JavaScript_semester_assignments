@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function full()
+        {
+            frm.full_name.value = frm.first_name.value + "  " + frm.last_name.value;
+        }
+    </script>
+</head>
+<body onload="frm.first_name.focus();">
+    
+    <form name="frm">
+    <b>First Name</b> =       
+    <input type="text", name="first_name" onchange="full()"><br>
+    <b>Last Name</b> =
+    <input type="text", name="last_name" onchange="full()" ><br>
+    <b>Full name</b> =
+    <input type="text", name="full_name" 
+</form>
+</body>
+</html>
